@@ -1,0 +1,78 @@
+/* CSS Reset - zerar as margens */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1 {
+  font: 16px "Roboto Condensed", Arial, Tahoma;
+  color: #1a1a1a;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 36px !important;
+}
+
+.header {
+  background: #1a1a1a;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 70px;
+  z-index: 1;
+  position: relative;
+}
+.header .header-logo img {
+  width: 150px;
+  margin-top: -20px;
+  border-radius: 50%;
+}
+.header .header-menu {
+  float: right;
+}
+.header .header-menu ul {
+  list-style: none;
+}
+.header .header-menu ul li {
+  margin: 5px 15px;
+  /* 5px cima e baixo, 15px esq e dir */
+  display: inline-block;
+  font: 20px "Roboto Condensed", Arial, Tahoma;
+  font-weight: bold;
+}
+.header .header-menu ul li a {
+  color: #ca80f9;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header .header-menu ul li a:hover {
+  color: #FFF;
+}
+
+.footer {
+  background: #1a1a1a;
+  padding: 20px;
+}
+.footer p {
+  text-align: center;
+  color: #ca80f9;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.w-100 {
+  width: 25%;
+}
+
+.w-200 {
+  width: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */

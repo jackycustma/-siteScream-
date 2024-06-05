@@ -1,0 +1,86 @@
+$dark: #1a1a1a;
+$secondary: #ca80f9;
+$clear: #FFF;
+$font: "Roboto Condensed", Arial, Tahoma;
+
+/* CSS Reset - zerar as margens */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin texto {
+    font: 16px $font;
+    color: $dark;
+    text-align: justify;
+}
+
+p, h1 {
+    @include texto;
+}
+
+h1 {
+    font-size: 36px !important;
+}
+
+.header {
+    background: $dark;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 70px;
+    z-index: 1;
+    position: relative;
+    .header-logo {
+        img {
+            width: 150px;
+            margin-top: -20px;
+            border-radius: 50%;
+
+        }
+    }
+    .header-menu {
+        float: right;
+        ul {
+            list-style: none;
+            li {
+                margin: 5px 15px; /* 5px cima e baixo, 15px esq e dir */
+                display: inline-block;
+                font: 20px $font;
+                font-weight: bold;
+                a {
+                    color: $secondary;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: $clear;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background: $dark;
+    padding: 20px;
+    p {
+        text-align: center;
+        color: $secondary;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.w-100 {
+    width: 25%;
+}
+.w-200{
+    width: 15%;
+}
