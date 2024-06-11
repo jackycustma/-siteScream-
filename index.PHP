@@ -12,14 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="imagens/logo2.jpeg">
+    <link rel="shortcut icon" href="imagens/logoteste2.png">
  
 </head>
 
 <body>
     <header class="header">
         <a href="index.php" title="ScreamGames" class="header-logo">
-            <img src="imagens/logoteste3.png" alt="ScreamGames">
+            <img src="imagens/logoteste2.png" alt="ScreamGames">
         </a>
 
         <nav class="header-menu">
