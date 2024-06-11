@@ -41,12 +41,12 @@ h1 {
   font-weight: bold;
 }
 .header .header-menu ul li a {
-  color: #ca80f9;
+  color: #ff0000;
   text-decoration: none;
   text-transform: uppercase;
 }
 .header .header-menu ul li a:hover {
-  color: #FFF;
+  color: #ffffff;
 }
 
 .footer {
@@ -55,7 +55,7 @@ h1 {
 }
 .footer p {
   text-align: center;
-  color: #ca80f9;
+  color: #ff0000;
 }
 
 .center {

@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <a href="index.php" title="ScreamGames" class="header-logo">
-            <img src="imagens/logo2.png" alt="ScreamGames">
+            <img src="imagens/logoteste3.png" alt="ScreamGames">
         </a>
 
         <nav class="header-menu">

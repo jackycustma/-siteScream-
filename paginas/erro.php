@@ -1,7 +1,7 @@
 <div class="container">
     <h1>Página não encontrada!</h1>
     <p>
-        <img src="imagens/404.png"
+        <img src="imagens/erro.png"
         alt="Erro 404"
         title="Erro 404"
         class="w-100">
