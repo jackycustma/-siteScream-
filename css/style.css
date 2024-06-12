@@ -14,6 +14,10 @@ h1 {
   font-size: 36px !important;
 }
 
+.body {
+  background-image: url(/imagens/fundo.jpg);
+}
+
 .header {
   background: #1a1a1a;
   padding: 20px;
@@ -23,7 +27,7 @@ h1 {
   position: relative;
 }
 .header .header-logo img {
-  width: 150px;
+  width: 200px;
   margin-top: -20px;
   border-radius: 50%;
 }
@@ -41,7 +45,7 @@ h1 {
   font-weight: bold;
 }
 .header .header-menu ul li a {
-  color: #ff0000;
+  color: #c10000d7;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -55,7 +59,7 @@ h1 {
 }
 .footer p {
   text-align: center;
-  color: #ff0000;
+  color: #c10000d7;
 }
 
 .center {

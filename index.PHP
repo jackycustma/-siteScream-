@@ -16,7 +16,9 @@
  
 </head>
 
+
 <body>
+
     <header class="header">
         <a href="index.php" title="ScreamGames" class="header-logo">
             <img src="imagens/logoteste2.png" alt="ScreamGames">
