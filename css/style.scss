@@ -1,5 +1,5 @@
-$dark: #1a1a1a;
-$secondary: #c10000d7;
+$dark: #0a0a0a;
+$secondary: #8f28de;
 $clear: #ffffff;
 $font: "Roboto Condensed", Arial, Tahoma;
 
@@ -22,10 +22,9 @@ p, h1 {
 h1 {
     font-size: 36px !important;
 }
-.body{
-    background-image: url(/imagens/fundo.jpg);
 
-}
+
+
 .header {
     background: $dark;
     padding: 20px;
@@ -36,9 +35,9 @@ h1 {
 
     .header-logo {
         img {
-            width: 200px;
+            width: 150px;
             margin-top: -20px;
-            border-radius: 50%;
+            border-radius: 100%;
 
         }
     }
@@ -84,6 +83,7 @@ h1 {
 
 .w-100 {
     width: 25%;
+    
 }
 .w-200{
     width: 15%;

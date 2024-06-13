@@ -6,7 +6,7 @@
 
 p, h1 {
   font: 16px "Roboto Condensed", Arial, Tahoma;
-  color: #1a1a1a;
+  color: #0a0a0a;
   text-align: justify;
 }
 
@@ -14,12 +14,8 @@ h1 {
   font-size: 36px !important;
 }
 
-.body {
-  background-image: url(/imagens/fundo.jpg);
-}
-
 .header {
-  background: #1a1a1a;
+  background: #0a0a0a;
   padding: 20px;
   box-sizing: border-box;
   height: 70px;
@@ -27,9 +23,9 @@ h1 {
   position: relative;
 }
 .header .header-logo img {
-  width: 200px;
+  width: 150px;
   margin-top: -20px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .header .header-menu {
   float: right;
@@ -45,7 +41,7 @@ h1 {
   font-weight: bold;
 }
 .header .header-menu ul li a {
-  color: #c10000d7;
+  color: #8f28de;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -54,12 +50,12 @@ h1 {
 }
 
 .footer {
-  background: #1a1a1a;
+  background: #0a0a0a;
   padding: 20px;
 }
 .footer p {
   text-align: center;
-  color: #c10000d7;
+  color: #8f28de;
 }
 
 .center {
