@@ -22,7 +22,10 @@ p, h1 {
 h1 {
     font-size: 36px !important;
 }
-
+.body{
+    background: $secondary;
+    
+}
 
 
 .header {
@@ -79,12 +82,12 @@ h1 {
 .container {
     width: 5000px;
     margin: 50px auto;
+    
 }
 
 .w-100 {
     width: 25%;
-    
 }
-.w-200{
-    width: 15%;
-}
+
+            
+
