@@ -76,8 +76,8 @@
         }
         .container1{ 
           position: relative;
-          width: 350px;
-          height: 550px;
+          width: 180px;
+          height: 360px;
           display: flex;
           justify-content: center;
         }
@@ -93,6 +93,7 @@
               cursor: pointer;
               transform-style: preserve-3d;
               transition: .5s;}
+              
 
               .frente,.tras{
                   position:absolute;
@@ -103,12 +104,19 @@
                   backface-visibility: hidden;
               }
                   .frente{
-                      background-image:url(/imagens/HelpSauro3d.png) ;
+                      background-image:url(/imagens/HelpSauro.jpg) ;
                       background-size: cover;
                   }
                       .tras{
                           background-color: #8f28de;
-                          transform: rotateY(180deg);
+                          transform: rotateY(180deg);}
+
+                          .img{
+                            width: 100%;
+
+                          }
+                          
+                        
                       
-}
+
           
