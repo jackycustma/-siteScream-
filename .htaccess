@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?param=$1
+RewriteRule ^(.*)$ index.php?pagina=$1

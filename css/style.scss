@@ -1,93 +1,87 @@
-$dark: #0a0a0a;
-$secondary: #8f28de;
-$clear: #ffffff;
-$font: "Roboto Condensed", Arial, Tahoma;
+$primary: #000000;
+$secondary: #6c0ce0;
+$font1: "Work Sans", Inter, Arial;
+$font2: "Roboto Condensed";
 
-/* CSS Reset - zerar as margens */
-* {
-    margin: 0;
-    padding: 0;
+.navbar {
+    background: #240046;
+    .navbar-brand img {
+        height: 60px;
+    }
+    .nav-link {
+        font: 22px $font2;
+        color: #8101c5;
+        text-transform: uppercase;
+        &:hover {
+            color: $secondary;
+        }
+    }
+    .navbar-nav .nav-link.show {
+        color: $secondary;
+    }
+    .dropdown-menu {
+        background: $primary;
+        border-radius: 5;
+        border-top: 5px solid $secondary;
+        .dropdown-item {
+            font: 20px $font2;
+            text-transform: uppercase;
+            color: $secondary;
+        }
+    }
+    .btn {
+        margin-left: 5px;
+    }
 }
 
-@mixin texto {
-    font: 16px $font;
-    color: $dark;
-    text-align: justify;
-}
+.btn {
+    font: 17px $font2;
+    border-radius: 10px;
+    background: $secondary;
+    color: #000000;
+    font-weight:600;
+    &:hover {
+        background-color: #441d70f2;
+        box-shadow: #ffffff !important;
+    }
 
-p, h1 {
-    @include texto;
 }
 
 h1 {
-    font-size: 36px !important;
+    font: 40px $font2;
+    color: #000000;
+    margin: 30px;
 }
-.body{
-    background: $secondary;
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px #000000;
+    width: 400px;
+    height: 570px;
+    margin: 50px;
+    border-radius: 10px;
+    img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
     
-}
-
-
-.header {
-    background: $dark;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 70px;
-    z-index: 1;
-    position: relative;
-
-    .header-logo {
-        img {
-            width: 150px;
-            margin-top: -20px;
-            border-radius: 100%;
-
-        }
-    }
-    .header-menu {
-        float: right;
-        ul {
-            list-style: none;
-            li {
-                margin: 5px 15px; /* 5px cima e baixo, 15px esq e dir */
-                display: inline-block;
-                font: 20px $font;
-                font-weight: bold;
-                a {
-                    color: $secondary;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    &:hover {
-                        color: $clear;
-                    }
-                }
-            }
-        }
-    }
 }
 
 .footer {
-    background: $dark;
+    color: #FFF;
     padding: 20px;
-    p {
-        text-align: center;
-        color: $secondary;
-    }
-}
-
-.center {
-    text-align: center;
-}
-
-.container {
-    width: 5000px;
-    margin: 50px auto;
+    background: #240046;
+    margin-top: 25px;
+    position:static;
     
 }
 
-.w-100 {
-    width: 25%;
+body {
+    margin-top: 80px;
+    background: #e0aaff;
 }
 
-            
-
+.navbar-toggler {
+    background:$secondary;
+}

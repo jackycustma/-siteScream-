@@ -1,122 +1,81 @@
-        /* CSS Reset - zerar as margens */
-        * {
-          margin: 0;
-          padding: 0;
-        }
+.navbar {
+  background: #240046;
+}
+.navbar .navbar-brand img {
+  height: 60px;
+}
+.navbar .nav-link {
+  font: 22px "Roboto Condensed";
+  color: #8101c5;
+  text-transform: uppercase;
+}
+.navbar .nav-link:hover {
+  color: #6c0ce0;
+}
+.navbar .navbar-nav .nav-link.show {
+  color: #6c0ce0;
+}
+.navbar .dropdown-menu {
+  background: #000000;
+  border-radius: 5;
+  border-top: 5px solid #6c0ce0;
+}
+.navbar .dropdown-menu .dropdown-item {
+  font: 20px "Roboto Condensed";
+  text-transform: uppercase;
+  color: #6c0ce0;
+}
+.navbar .btn {
+  margin-left: 5px;
+}
 
-        p, h1 {
-          font: 16px "Roboto Condensed", Arial, Tahoma;
-          color: #0a0a0a;
-          text-align: justify;
-        }
+.btn {
+  font: 17px "Roboto Condensed";
+  border-radius: 10px;
+  background: #6c0ce0;
+  color: #000000;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #441d70f2;
+  box-shadow: #ffffff !important;
+}
 
-        h1 {
-          font-size: 36px !important;
-        }
+h1 {
+  font: 40px "Roboto Condensed";
+  color: #000000;
+  margin: 30px;
+}
 
-        .body {
-          background: #8f28de;
-        }
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px #000000;
+  width: 400px;
+  height: 570px;
+  margin: 50px;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
-        .header {
-          background: #0a0a0a;
-          padding: 20px;
-          box-sizing: border-box;
-          height: 70px;
-          z-index: 1;
-          position: relative;
-        }
-        .header .header-logo img {
-          width: 150px;
-          margin-top: -20px;
-          border-radius: 100%;
-        }
-        .header .header-menu {
-          float: right;
-        }
-        .header .header-menu ul {
-          list-style: none;
-        }
-        .header .header-menu ul li {
-          margin: 5px 15px;
-          /* 5px cima e baixo, 15px esq e dir */
-          display: inline-block;
-          font: 20px "Roboto Condensed", Arial, Tahoma;
-          font-weight: bold;
-        }
-        .header .header-menu ul li a {
-          color: #8f28de;
-          text-decoration: none;
-          text-transform: uppercase;
-        }
-        .header .header-menu ul li a:hover {
-          color: #ffffff;
-        }
+.footer {
+  color: #FFF;
+  padding: 20px;
+  background: #240046;
+  margin-top: 25px;
+  position: static;
+}
 
-        .footer {
-          background: #0a0a0a;
-          padding: 20px;
-        }
-        .footer p {
-          text-align: center;
-          color: #8f28de;
-        }
+body {
+  margin-top: 80px;
+  background: #e0aaff;
+}
 
-        .center {
-          text-align: center;
-        }
+.navbar-toggler {
+  background: #6c0ce0;
+}
 
-        .container {
-          width: 5000px;
-          margin: 50px auto;
-        }
-
-        .w-100 {
-          width: 25%;
-        }
-        .container1{ 
-          position: relative;
-          width: 180px;
-          height: 360px;
-          display: flex;
-          justify-content: center;
-        }
-
-          .container1:hover .flip{
-              transform: rotateY(180deg);}
-
-          
-          .flip{
-              position: absolute;
-              width: 100%;
-              height: 100%;
-              cursor: pointer;
-              transform-style: preserve-3d;
-              transition: .5s;}
-              
-
-              .frente,.tras{
-                  position:absolute;
-                  width: 100%;
-                  height: 100%;
-                  border-radius: 20px;
-                  box-shadow: 0px 0px 10px #0a0a0a;
-                  backface-visibility: hidden;
-              }
-                  .frente{
-                      background-image:url(/imagens/HelpSauro.jpg) ;
-                      background-size: cover;
-                  }
-                      .tras{
-                          background-color: #8f28de;
-                          transform: rotateY(180deg);}
-
-                          .img{
-                            width: 100%;
-
-                          }
-                          
-                        
-                      
-
-          
+/*# sourceMappingURL=style.css.map */
