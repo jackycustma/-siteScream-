@@ -16,8 +16,10 @@
         class="form-control form-control-lg">
 
 
-        <button type="submit" class="btn btn-success btn-lg">
+        <button type="submit" class="btn d-grid gap-2 col-4 mx-auto">
             Enviar Mensagem
         </button>
     </form>
 </div>
+
+

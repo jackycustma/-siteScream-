@@ -47,7 +47,7 @@
                         <a class="nav-link" aria-current="page" href="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quem-somos">Quem Somos</a>
+                        <a class="nav-link" href="quemsomos.php">Quem Somos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,13 +63,20 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="d-flex">
 
-                    </a>
+
+                
+
+                <div class="d-flex">
+          </a>
+
                     <a href="contato" title="Contato" class="btn btn-login">
                         <i class="bi bi-person-bounding-box"></i>
                         FEEDBACK
                     </a>
+
+
+                    
                 </div>
             </div>
         </div>
