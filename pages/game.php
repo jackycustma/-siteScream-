@@ -25,23 +25,25 @@ $dados = $dadosJogos->$codigo;
 
 
     <div class="row">
-    <div class="col-12 col-md-3">
+        <div class="col-12 col-md-1">
             <img src="<?= $dados->foto ?>" alt="<?= $dados->cargo ?>" class="w-100">
         </div>
 
     </div>
-    <div class="col-12 col-md-9">
-        <h2>
-        <?= $dados->ceo ?> 
-        </h2>
+    <div class="col-12 col-md-9 ">
+        <h6>
+            <?= $dados->ceo ?>
+        </h6>
+        <h9>
             <p>
-                <?= $dados->cargo ?> 
+                <?= $dados->cargo ?>
 
             </p>
+        </h9>
 
 
- 
- 
 
 
-</div>
+
+
+    </div>

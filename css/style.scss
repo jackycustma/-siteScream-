@@ -10,23 +10,23 @@ $font2: "Roboto Condensed";
     }
     .nav-link {
         font: 22px $font2;
-        color: #8101c5;
+        color: #dbff2afa;
         text-transform: uppercase;
         &:hover {
             color: $secondary;
         }
     }
     .navbar-nav .nav-link.show {
-        color: $secondary;
+        color:#dbff2afa;
     }
     .dropdown-menu {
-        background: $primary;
+        background: #240046;
         border-radius: 5;
-        border-top: 5px solid $secondary;
+        border-top: 5px solid #dbff2afa;
         .dropdown-item {
             font: 20px $font2;
             text-transform: uppercase;
-            color: $secondary;
+            color: #dbff2afa;
         }
     }
     .btn {
@@ -37,8 +37,8 @@ $font2: "Roboto Condensed";
 .btn {
     font: 17px $font2;
     border-radius: 10px;
-    background: $secondary;
-    color: #000000;
+    background:  #dbff2afa;
+    color:#000000;
     font-weight:600;
     &:hover {
         background-color: #441d70f2;
@@ -49,27 +49,33 @@ $font2: "Roboto Condensed";
 
 h1 {
     font: 40px $font2;
-    color: #000000;
+    color: #240046;
     margin: 30px;
+    font-size: 3rem;
+    font-weight: 500;
+    -webkit-text-stroke: 2px #7717a7;
+    
 }
 
 .card {
     margin-bottom: 20px;
-    box-shadow: 0 0 15px #000000;
-    width: 400px;
-    height: 570px;
-    margin: 50px;
-    border-radius: 20px;
+    box-shadow: 0 0 20px #5f028e;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 1px;
+    background: #240046;
+    color:  #dbff2afa;
     img{
         width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
     }
     
 }
 
 .footer {
-    color: #FFF;
+    color: #dbff2afa;
     padding: 15px;
     background: #240046;
     margin-top: 10px;
@@ -84,4 +90,15 @@ body {
 
 .navbar-toggler {
     background:$secondary;
+}
+.btn-home{
+    background: #dbff2afa;
+    color: #000000;
+    box-shadow: 0 0 5px #000000;
+    box-sizing: border-box;
+    font: 20px $font2;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-decoration: none;
 }
