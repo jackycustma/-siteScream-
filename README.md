@@ -1,4 +1,5 @@
 Segundo projeto idealizado pela Faculdade:
+
  No incio do projeto seu nome seria Site Scream, seu tema seria todo
  no estilo dos filmes Scream, porem ao analizar as personas e nossos
  usuarios, repaginamos a ideia e nasce o Glow Games, o famoso GG
